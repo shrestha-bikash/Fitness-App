@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "sdkVersion": "22.0.0",
+    "orientation": "portrait",
+    "name": "Infiniafitness",
+    "description": "The best triathlon training app in the world.",
+    "slug": "infiniafitness",
+    "version": "1.0",
+    "icon": "https://bytebucket.org/infiniahub/infiniastoresweb/raw/675d40549791ceae0d733fec0b01c94b537541cb/img/logo.png?token=0f44c8a2e086fd63d875b8c4798958f999ac5031",
+    "notification": {
+      "icon": "https://bytebucket.org/infiniahub/infiniastoresweb/raw/675d40549791ceae0d733fec0b01c94b537541cb/img/logo.png?token=0f44c8a2e086fd63d875b8c4798958f999ac5031"
+    },
+    "ios": {
+      "bundleIdentifier": "com.infiniafitness.exp"
+    },
+    "android": {
+      "package": "com.infiniafitness.exp"
+    }
+  }
+}
