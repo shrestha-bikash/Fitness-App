@@ -10,11 +10,11 @@ pool:
   vmImage: 'macOS 10.13'
 
 steps:
-- script: echo Hello, world!
+- script: cd ~/Library && ls
   displayName: 'Run a one-line script'
 
-- script: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-  displayName: 'Intalling NVM'
+# - script: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  # displayName: 'Intalling NVM'
 
-- script: npm config delete prefix && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install 8 && nvm alias default 8
-  displayName:  'Installing Node 8 and npm start'
+# - script: npm config delete prefix && export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" && nvm install 8 && nvm alias default 8
+  # displayName:  'Installing Node 8 and npm start'
