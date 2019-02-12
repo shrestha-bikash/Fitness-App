@@ -10,7 +10,7 @@ pool:
   vmImage: 'macOS 10.13'
 
 steps:
-- script: cd ~/Library && ls
+- script: cd ~/Library/Android/sdk/build-tools && ls
   displayName: 'Run a one-line script'
 
 # - script: curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
